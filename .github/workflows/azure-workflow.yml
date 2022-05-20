@@ -18,5 +18,5 @@ jobs:
           uses: Azure/pipelines@v1
           with:
             azure-devops-project-url: https://dev.azure.com/MayurWaghmode/Demo-project
-            azure-pipeline-name: 'My Pipeline'
+            azure-pipeline-name: 'mayurwaghmode.azure-pipeline'
             azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
